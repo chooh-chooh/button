@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+button {
+    background-color: #5300C9;
+    padding: 12px, 24px;
+    border-radius: 8px;
+    width: 138px;
+    height: 48px;
+    font-family: 'Rubik';
+    font-style: normal;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #8647E0;
+}
+  
+button:focus {
+    outline: 3px solid #DCC3FF;
+  }
+  
+button:active {
+    background-color: #4400A5;
+  }
+button:disabled {
+    background-color: #E4E4E4;
+    color: #AFACAC;
+    cursor: not-allowed;
+    } 

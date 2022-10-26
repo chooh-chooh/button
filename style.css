@@ -11,6 +11,7 @@ button {
     line-height: 24px;
     align-items: center;
     cursor: pointer;
+    border: none;
 }
 button:hover {
     background-color: #8647E0;
